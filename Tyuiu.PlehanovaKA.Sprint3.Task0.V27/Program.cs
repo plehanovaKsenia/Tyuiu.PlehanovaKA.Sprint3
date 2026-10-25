@@ -20,7 +20,7 @@ namespace Tyuiu.PlehanovaKA.Sprint3.Task0.V27
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
             Console.WriteLine("* Написать программу, используя цикл for, которая вычисляет               *");
-            Console.WriteLine("*  сумму ряда по формуле при n=5                                          *");
+            Console.WriteLine("* сумму ряда по формуле при n=5                                          *");
             Console.WriteLine("*                                                                         *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");

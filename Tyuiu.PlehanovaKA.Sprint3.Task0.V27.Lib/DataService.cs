@@ -11,7 +11,7 @@ namespace Tyuiu.PlehanovaKA.Sprint3.Task0.V27.Lib
                 SumSeries=SumSeries+Math.Pow(4.0/Math.Pow(k,value),2);
 
             }
-            return SumSeries;
+            return Math.Round(SumSeries,3);
 
         }
     }
