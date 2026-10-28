@@ -8,9 +8,9 @@ namespace Tyuiu.PlehanovaKA.Sprint3.Task6.V17.Test
         public void ValidGetSumTheDivisors()
         {
             DataService ds = new DataService();
-            int startValue = 1;
-            int stopValue = 4;
-            int wait = 4;
+            int startValue = 10;
+            int stopValue = 20;
+            int wait = 43;
             int res = ds.GetSumTheDivisors(startValue, stopValue);
             Assert.AreEqual(wait, res);
         }
