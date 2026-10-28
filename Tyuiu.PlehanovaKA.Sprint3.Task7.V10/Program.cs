@@ -1,4 +1,5 @@
-﻿using Tyuiu.PlehanovaKA.Sprint3.Task7.V10.Lib;
+﻿using System.ComponentModel.DataAnnotations;
+using Tyuiu.PlehanovaKA.Sprint3.Task7.V10.Lib;
 namespace Tyuiu.PlehanovaKA.Sprint3.Task7.V10
 {
     internal class Program
@@ -28,11 +29,20 @@ namespace Tyuiu.PlehanovaKA.Sprint3.Task7.V10
             Console.WriteLine("Начальное значение " + startValue);
             Console.WriteLine("Конечное значение " + stopValue);
             double[] res = ds.GetMassFunction(startValue, stopValue);
+            int len = res.Length;
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine(res);
+            Console.WriteLine(" -----------------------------------+------------------------------------- ");
+            Console.WriteLine(" |                X                 |                   f(x)             | ");
+            for (int i = 0; i <=len-1;i++)
+            {
+                Console.WriteLine(" +-----------------------------------+-----------------------------------+ ");
+                Console.WriteLine(" |                "+startValue+"                 |                   "+res[i]+"             | ");
+                startValue++;
+            }
+            Console.WriteLine(" +-----------------------------------------------------------------------+ ");
         }
     }
 }
