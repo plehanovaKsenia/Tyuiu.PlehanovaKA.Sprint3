@@ -8,7 +8,7 @@ namespace Tyuiu.PlehanovaKA.Sprint3.Task6.V17.Lib
             List<int> TheDivisors = new List<int>();
             for (int i = startValue; i <= stopValue; i++)
             {
-                for (int j = 1;j<= startValue; j++)
+                for (int j = 2;j<startValue; j++)
                 {
                     if (i%j==0)
                     {
