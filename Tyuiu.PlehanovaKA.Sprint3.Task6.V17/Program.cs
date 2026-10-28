@@ -12,7 +12,7 @@ namespace Tyuiu.PlehanovaKA.Sprint3.Task6.V17
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #3                                                               *");
-            Console.WriteLine("* Тема: Оператор цикла for                                                *");
+            Console.WriteLine("* Тема: Обработка целочисленной информации                                *");
             Console.WriteLine("* Задание#6                                                               *");
             Console.WriteLine("* Вариант#17                                                              *");
             Console.WriteLine("* Выполнила: Плеханова Ксения Анатольевна | СМАРТб-26-1                   *");
